@@ -23,7 +23,7 @@ def bank_program():
                     amount = float(BALANCES[log[1]]) - float(log[2])
                     BALANCES[log[1]] = amount
                     print('Withdrawal was successful:', BALANCES)
-                    else:
+                else:
                     print('There is insufficient balance:', BALANCES)
             elif log[0] == 'TRANSFER' and log[1] in BALANCES and log[2] in BALANCES:
                 if float(BALANCES[log[1]]) >= float(log[3]):
@@ -37,3 +37,4 @@ def bank_program():
         return BALANCES
 
 bank_program()
+    
