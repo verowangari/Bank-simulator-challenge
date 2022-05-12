@@ -4,7 +4,7 @@
 [Veronica Muriithi]
 
 ### Description
-A python script that operates as a bank simulator, by allowing deposits, withdrawals and transfers and calculating final balances.
+A python program that operates as a bank simulator, by allowing deposits, withdrawals and transfers and calculating final balances.
 
 ## User Stories
 The users given can perform the following actions:
